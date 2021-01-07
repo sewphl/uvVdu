@@ -1,0 +1,317 @@
+html {
+  box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  }
+
+body {
+  margin: 0 auto;
+  background-color:#f0efe8;
+  font-family: 'Jost', sans-serif;
+  font-color: #000;
+  }
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: black; }
+  a:hover {
+    color: #484848;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+    }
+    header a {
+      display: inline;;
+      padding: 10px;
+    }
+    header a#uvVduid {
+      float: left;
+      font-family: 'Jost', sans-serif;
+    }
+    header a#gallery, a#gallery2 {
+      float: right;
+      z-index: 1;
+    }
+
+.container {
+  width: 80%;
+  margin: 2rem auto;
+  }
+
+.grid {
+  display: grid;
+  grid-auto-flow: dense;
+  }
+
+
+@media (max-width: 700px) {
+  .container {
+    width: 74%;
+    margin: 2.5rem auto;
+  }
+  .grid {
+    grid-template-areas:
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . gi1 gi1 gi1 gi1 gi1 gi1 gi1 gi1 ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi2 gi2 gi2 gi2 gi2 gi2 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi3 gi3 gi3 gi3 gi3 gi3 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . gi4 gi4 gi4 gi4 gi4 gi4 gi4 gi4 ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . gi5 gi5 gi5 gi5 gi5 gi5 gi5 gi5 ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi6 gi6 gi6 gi6 gi6 gi6 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi7 gi7 gi7 gi7 gi7 gi7 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . gi8 gi8 gi8 gi8 gi8 gi8 gi8 gi8 ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi9 gi9 gi9 gi9 gi9 gi9 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . gi10 gi10 gi10 gi10 gi10 gi10 gi10 gi10 ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . foot foot . . . ."
+    ;
+    grid-gap: 4vw;
+    }
+  }
+
+
+
+@media (min-width: 701px) {
+  .grid {
+    grid-template-areas:
+      ". . . . . . . . . . "
+      " . gi1 gi1 gi1 gi1 . gi2 gi2 gi2 . "
+      ". . . . . . . . . . "
+      " . gi3 gi3 gi3 . gi4 gi4 gi4 gi4 . "
+      ". . . . . . . . . . "
+      " . gi5 gi5 gi5 gi5 . gi6 gi6 gi6 ."
+      ". . . . . . . . . . "
+      " . gi7 gi7 gi7 . gi8 gi8 gi8 gi8 . "
+      ". . . . . . . . . . "
+      " . gi9 gi9 gi9 . gi10 gi10 gi10 gi10 . "
+      ". . . . . . . . . . "
+      ". . . . foot foot . . . . "
+    ;
+    grid-gap: 6vw;
+    }
+  }
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 85%;
+    margin: 3rem auto;
+  }
+  .grid {
+    grid-template-areas:
+      ". . . . . . . . . . . . . ."
+      " . gi1 gi1 gi1 gi1 . gi2 gi2 gi2 . gi3 gi3 gi3 . "
+      ". . . . . . . . . . . . . ."
+      " . . gi4 gi4 gi4 gi4 . . gi5 gi5 gi5 gi5 . . "
+      ". . . . . . . . . . . . . ."
+      " . gi6 gi6 gi6 . gi7 gi7 gi7 . gi8 gi8 gi8 gi8 ."
+      ". . . . . . . . . . . . . ."
+      ". . . gi9 gi9 gi9 . . gi10 gi10 gi10 gi10 . ."
+      ". . . . . . . . . . . . . ."
+      ". . . . . . foot foot . . . . . ."
+    ;
+    grid-gap: 6vw;
+    }
+  }
+
+.photo {
+    object-fit: cover;
+    place-self: center;
+    transition: all 1s linear;
+    }
+
+.gi1 {
+  grid-area: gi1;
+  }
+.gi2 {
+  grid-area: gi2;
+  }
+.gi3 {
+  grid-area: gi3;
+  }
+.gi4 {
+  grid-area: gi4;
+  }
+.gi5 {
+  grid-area: gi5;
+  }
+.gi6 {
+  grid-area: gi6;
+  }
+.gi7 {
+  grid-area: gi7;
+  }
+.gi8 {
+  grid-area: gi8;
+  }
+.gi9 {
+  grid-area: gi9;
+  }
+.gi10 {
+  grid-area: gi10;
+  }
+
+.footer {
+  grid-area: foot;
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+  }
+
+.preview {
+	width: 100%;
+  }
+
+#about, #Lightbox {
+  display: none;
+  opacity: 0;
+  }
+
+#about {
+  transition: all .3s linear;
+  background-color: #fff;
+  font-family: Montserrat;
+  }
+
+#abt {
+  min-height: 70vh;
+  margin: 5vh auto;
+  text-align: center;
+  }
+
+#Lightbox {
+  transition: all 1s linear;
+  background: #f0efe8;
+  }
+
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  display: none;
+  }
+
+/*note, < and > buttons */
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3em auto 3em auto;
+  padding: 0;
+  }
+
+.slide {
+  display: none;
+  cursor: pointer;
+  }
+
+.image-slide {
+  max-width: 95vw;
+  max-height: 90vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.modal-preview {
+	width: 100%;
+  }
+
+img.preview, img.modal-preview {
+  opacity: 1;
+  }
+
+img.active,
+.preview:hover,
+.modal-preview:hover {
+  opacity: 1;
+  cursor: pointer;
+  }
+
+img.hover-shadow {
+  transition: 0.3s;
+  }
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.close, .closeAbt {
+  position: fixed;
+  top: 1;
+  right: 0;
+  z-index: 10;
+  display: block;
+  padding: 10px;
+  font-family: 'Jost', sans-serif;
+  }
+
+.close {
+  color: #000;
+  }
+.closeAbt {
+  color: #000;
+  }
+
+.close:hover,
+.close:focus,
+.closeAbt:hover,
+.closeAbt:focus {
+  color: #484848;
+  text-decoration: none;
+  cursor: pointer;
+  }

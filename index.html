@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>POST</title>
+    <meta name="author" content="uVvdu">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Montserrat:wght@300;400&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+        <a id = "uvVduid" href="#" onclick="openMe('about')"> uvVdu </a>
+    </header>
+
+    <div id="about" class="modal">
+      <header>
+      <a id = "uvVduid" href="#" onclick="openMe('about')"> uvVdu </a>
+      </header>
+      <span class="closeAbt" id="clsAbt" onclick="closeMe('about')">close</span>
+      <div class="container" id="abt">
+        <a href="http://instagram.com/ultravioletvoodoo">
+          <video loop autoplay muted min-height="50vh" id="vid" class="image-slide" src="images/v1.mov" type="video/mp4"></video>
+        </a>
+      </div> <!--#abt-->
+    </div> <!--#about-->
+
+
+    <div class="container">
+    <div class="grid">
+       <div class="photo gi1">
+        <img src="images/l1.jpg" onclick="openMe('Lightbox');toSlide(1)" class="hover-shadow preview">
+       </div>
+       <div class="photo gi2">
+        <img src="images/p7.jpg" onclick="openMe('Lightbox');toSlide(2)" class="hover-shadow preview">
+       </div>
+       <div class="photo gi3">
+        <img src="images/p1.jpg" onclick="openMe('Lightbox');toSlide(3)" class="hover-shadow preview">
+       </div>
+       <div class="photo gi4">
+        <img src="images/l11.jpg" onclick="openMe('Lightbox');toSlide(4)" class="hover-shadow preview">
+       </div>
+       <div class="photo gi5">
+        <img src="images/l2.jpg" onclick="openMe('Lightbox');toSlide(5)" class="hover-shadow preview">
+       </div>
+       <div class="photo gi6">
+        <img src="images/p5.jpg" onclick="openMe('Lightbox');toSlide(6)" class="hover-shadow preview">
+       </div>
+       <div class="photo gi7">
+        <img src="images/p9.jpg" onclick="openMe('Lightbox');toSlide(7)" class="hover-shadow preview">
+       </div>
+       <div class="photo gi8">
+        <img src="images/l7.jpg" onclick="openMe('Lightbox');toSlide(8)" class="hover-shadow preview">
+       </div>
+       <div class="photo gi9">
+        <img src="images/p8.jpg" onclick="openMe('Lightbox');toSlide(9)" class="hover-shadow preview">
+       </div>
+       <div class="photo gi10">
+        <img src="images/l10.jpg" onclick="openMe('Lightbox');toSlide(10)" class="hover-shadow preview">
+       </div>
+
+    </div> <!--.grid-->
+    </div> <!--container-->
+
+    <div id="Lightbox" class="modal">
+      <header>
+      <a id = "uvVduid" href="#" onclick="openAbout()"> uvVdu </a>
+      </header>
+      <span class="close pointer" onclick="closeMe('Lightbox')">close</span>
+      <div class="modal-content">
+        <a class="slide" onclick="changeSlide(1)">
+          <img src="images/l1.jpg" class="image-slide" alt="1" />
+        </a>
+        <a class="slide" onclick="changeSlide(1)">
+          <img src="images/p7.jpg" class="image-slide" alt="2" />
+        </a>
+        <a class="slide" onclick="changeSlide(1)">
+          <img src="images/p1.jpg" class="image-slide" alt="3" />
+        </a>
+        <a class="slide" onclick="changeSlide(1)">
+          <img src="images/l11.jpg" class="image-slide" alt="4" />
+        </a>
+        <a class="slide" onclick="changeSlide(1)">
+          <img src="images/l2.jpg" class="image-slide" alt="5" />
+        </a>
+        <a class="slide" onclick="changeSlide(1)">
+          <img src="images/p5.jpg" class="image-slide" alt="6" />
+        </a>
+        <a class="slide" onclick="changeSlide(1)">
+          <img src="images/p9.jpg" class="image-slide" alt="7" />
+        </a>
+        <a class="slide" onclick="changeSlide(1)">
+          <img src="images/l7.jpg" class="image-slide" alt="8" />
+        </a>
+        <a class="slide" onclick="changeSlide(1)">
+          <img src="images/p8.jpg" class="image-slide" alt="9" />
+        </a>
+        <a class="slide" onclick="changeSlide(1)">
+          <img src="images/l10.jpg" class="image-slide" alt="10" />
+        </a>
+      </div>  <!--.modal-content-->
+    </div>  <!--#Lightbox .modal-->
+
+    <div class="footer" id="footer">
+      <script type="text/javascript">document.write("© " + new Date().getFullYear() + ", uvVdu" + "<br><br>");</script>
+    </div>
+  </body>
+  <script src="js/style.js"></script>
+</html>
