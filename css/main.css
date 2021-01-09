@@ -315,3 +315,8 @@ img.hover-shadow {
   text-decoration: none;
   cursor: pointer;
   }
+
+  video {
+    display: block;
+    margin: 0 auto;
+  }
