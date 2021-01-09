@@ -224,7 +224,7 @@ a {
   }
 
 #abt {
-  min-height: 70vh;
+  min-height: 50vh;
   margin: 5vh auto;
   text-align: center;
   }
@@ -319,4 +319,4 @@ img.hover-shadow {
   video {
     display: block;
     margin: 0 auto;
-  }
+    }
