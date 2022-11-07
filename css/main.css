@@ -1,44 +1,53 @@
+@keyframes smoothscroll1 {
+  from, to {
+    scroll-behavior: smooth;
+  }
+}
+
+@keyframes smoothscroll2 {
+  from, to {
+    scroll-behavior: smooth;
+  }
+}
+
 html {
   box-sizing: border-box;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+  animation: smoothscroll1 1s;
   }
+
+
+html:focus-within {
+  animation-name: smoothscroll2;
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  scroll-behavior: auto;
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
   }
 
 body {
+  opacity: 0;
   margin: 0 auto;
   background-color:#f0efe8;
-  font-family: 'Jost', sans-serif;
-  font-color: #000;
+  font-family: 'futura-pt', 'Jost', sans-serif;
+  color: #000;
   }
 
 a {
   text-decoration: none;
   outline: none;
-  color: black; }
-  a:hover {
-    color: #484848;
+  color: black; 
   }
 
-  header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 5;
-    }
-    header a {
-      display: inline;;
-      padding: 10px;
-    }
-    header a#uvVduid {
-      float: left;
-      font-family: 'Jost', sans-serif;
-    }
-    header a#gallery, a#gallery2 {
-      float: right;
-      z-index: 1;
-    }
+a:hover {
+  color: #484848;
+  }
 
 .container {
   width: 80%;
@@ -47,15 +56,15 @@ a {
 
 .grid {
   display: grid;
-  grid-auto-flow: dense;
+  grid-auto-flow: dense; /* | column | row dense | column dense; */
   }
-
-
+ 
 @media (max-width: 700px) {
   .container {
     width: 74%;
     margin: 2.5rem auto;
   }
+
   .grid {
     grid-template-areas:
     " . . . . . . . . . ."
@@ -114,6 +123,130 @@ a {
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
+
+
+    " . gi11 gi11 gi11 gi11 gi11 gi11 gi11 gi11 ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi12 gi12 gi12 gi12 gi12 gi12 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi13 gi13 gi13 gi13 gi13 gi13 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . gi14 gi14 gi14 gi14 gi14 gi14 gi14 gi14 ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . gi15 gi15 gi15 gi15 gi15 gi15 gi15 gi15 ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi16 gi16 gi16 gi16 gi16 gi16 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . gi17 gi17 gi17 gi17 gi17 gi17 gi17 gi17 ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi18 gi18 gi18 gi18 gi18 gi18 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi19 gi19 gi19 gi19 gi19 gi19 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . gi20 gi20 gi20 gi20 gi20 gi20 gi20 gi20 ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+
+    " . . gi21 gi21 gi21 gi21 gi21 gi21 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi22 gi22 gi22 gi22 gi22 gi22 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi23 gi23 gi23 gi23 gi23 gi23 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi24 gi24 gi24 gi24 gi24 gi24 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi25 gi25 gi25 gi25 gi25 gi25 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi26 gi26 gi26 gi26 gi26 gi26 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi27 gi27 gi27 gi27 gi27 gi27 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi28 gi28 gi28 gi28 gi28 gi28 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi29 gi29 gi29 gi29 gi29 gi29 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi30 gi30 gi30 gi30 gi30 gi30 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi31 gi31 gi31 gi31 gi31 gi31 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi32 gi32 gi32 gi32 gi32 gi32 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi33 gi33 gi33 gi33 gi33 gi33 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi34 gi34 gi34 gi34 gi34 gi34 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+
     " . . . . foot foot . . . ."
     ;
     grid-gap: 4vw;
@@ -136,6 +269,32 @@ a {
       ". . . . . . . . . . "
       " . gi9 gi9 gi9 . gi10 gi10 gi10 gi10 . "
       ". . . . . . . . . . "
+
+      " . gi11 gi11 gi11 gi11 . gi12 gi12 gi12 . "
+      ". . . . . . . . . . "
+      " . gi13 gi13 gi13 . gi14 gi14 gi14 gi14 . "
+      ". . . . . . . . . . "
+      " . gi15 gi15 gi15 gi15 . gi16 gi16 gi16 ."
+      ". . . . . . . . . . "
+      " . gi17 gi17 gi17 gi17 . gi18 gi18 gi18 . "
+      ". . . . . . . . . . "
+      " . gi19 gi19 gi19 . gi20 gi20 gi20 gi20 . "
+      ". . . . . . . . . . "
+
+      " . gi21 gi21 gi21 . . gi22 gi22 gi22 . "
+      ". . . . . . . . . . "
+      " . gi23 gi23 gi23 . . gi24 gi24 gi24 . "
+      ". . . . . . . . . . "
+      " . gi25 gi25 gi25 . . gi26 gi26 gi26 . "
+      ". . . . . . . . . . "
+      " . gi27 gi27 gi27 . . gi28 gi28 gi28 . "
+      ". . . . . . . . . . "
+      " . gi29 gi29 gi29 . . gi30 gi30 gi30 . "
+      ". . . . . . . . . . "
+      " . gi31 gi31 gi31 . . gi32 gi32 gi32 . "
+      ". . . . . . . . . . "
+      " . gi33 gi33 gi33 . . gi34 gi34 gi34 . "
+
       ". . . . foot foot . . . . "
     ;
     grid-gap: 6vw;
@@ -159,7 +318,32 @@ a {
       ". . . . . . . . . . . . . ."
       ". . . gi9 gi9 gi9 . . gi10 gi10 gi10 gi10 . ."
       ". . . . . . . . . . . . . ."
-      ". . . . . . foot foot . . . . . ."
+
+      " . gi11 gi11 gi11 gi11 . gi12 gi12 gi12 . gi13 gi13 gi13 . "
+      ". . . . . . . . . . . . . ."
+      " . . gi14 gi14 gi14 gi14 . . gi15 gi15 gi15 gi15 . . "
+      ". . . . . . . . . . . . . ."
+      " . gi16 gi16 gi16 . gi17 gi17 gi17 gi17 . gi18 gi18 gi18 ."
+      ". . . . . . . . . . . . . ."
+      ". . . gi19 gi19 gi19 . . gi20 gi20 gi20 gi20 . ."
+      ". . . . . . . . . . . . . ."
+
+      ". . . gi21 gi21 gi21 . . gi22 gi22 gi22 . . ."
+      ". . . . . . . . . . . . . ."
+      ". . gi23 gi23 gi23 . . gi24 gi24 gi24 . . . ."
+      ". . . . . . . . . . . . . ."
+      ". . . . gi25 gi25 gi25 . . gi26 gi26 gi26 . ."
+      ". . . . . . . . . . . . . ."
+      ". . . gi27 gi27 gi27 . . gi28 gi28 gi28 . . ."
+      ". . . . . . . . . . . . . ."
+      ". . gi29 gi29 gi29 . . gi30 gi30 gi30 . . . ."
+      ". . . . . . . . . . . . . ."
+      ". . . . gi31 gi31 gi31 . . gi32 gi32 gi32 . ."
+      ". . . . . . . . . . . . . ."
+      ". . . gi33 gi33 gi33 . . gi34 gi34 gi34 . . ."
+      ". . . . . . . . . . . . . ."
+    
+      ". . . . . . foot foot . . . . . ." 
     ;
     grid-gap: 6vw;
     }
@@ -201,12 +385,109 @@ a {
 .gi10 {
   grid-area: gi10;
   }
-
-.footer {
-  grid-area: foot;
-  text-align: center;
-  font-family: 'Jost', sans-serif;
+.gi1 {
+  grid-area: gi1;
   }
+.gi2 {
+  grid-area: gi2;
+  }
+.gi3 {
+  grid-area: gi3;
+  }
+.gi4 {
+  grid-area: gi4;
+  }
+.gi5 {
+  grid-area: gi5;
+  }
+.gi6 {
+  grid-area: gi6;
+  }
+.gi7 {
+  grid-area: gi7;
+  }
+.gi8 {
+  grid-area: gi8;
+  }
+.gi9 {
+  grid-area: gi9;
+  }
+.gi10 {
+  grid-area: gi10;
+  }
+.gi11 {
+  grid-area: gi11;
+  }
+.gi12 {
+  grid-area: gi12;
+  }
+.gi13 {
+  grid-area: gi13;
+  }
+.gi14 {
+  grid-area: gi14;
+  }
+.gi15 {
+  grid-area: gi15;
+  }
+.gi16 {
+  grid-area: gi16;
+  }
+.gi17 {
+  grid-area: gi17;
+  }
+.gi18 {
+  grid-area: gi18;
+  }
+.gi19 {
+  grid-area: gi19;
+  }
+.gi20 {
+  grid-area: gi20;
+  }
+.gi21 {
+  grid-area: gi21;
+  }
+.gi22 {
+  grid-area: gi22;
+  }
+  .gi23 {
+  grid-area: gi23;
+  }
+.gi24 {
+  grid-area: gi24;
+  }
+.gi25 {
+  grid-area: gi25;
+  }
+.gi26 {
+  grid-area: gi26;
+  }  
+.gi27 {
+  grid-area: gi27;
+  }    
+.gi28 {
+  grid-area: gi28;
+  }  
+.gi29 {
+  grid-area: gi29;
+  }  
+.gi30 {
+  grid-area: gi30;
+  }  
+.gi31 {
+  grid-area: gi31;
+  }  
+.gi32 {
+  grid-area: gi32;
+  }  
+.gi33 {
+  grid-area: gi33;
+  }   
+.gi34 {
+  grid-area: gi34;
+  }  
+     
 
 .preview {
 	width: 100%;
@@ -219,14 +500,126 @@ a {
 
 #about {
   transition: all .3s linear;
-  background-color: #fff;
-  font-family: Montserrat;
+  background-color:#f0efe8;
   }
 
 #abt {
-  width: 100%;
-  margin: 3em auto;
+/*  min-height: 70vh;
+  margin: 5vh auto;
+  text-align: center;*/
+  }
+
+#hello {
+  background-color: #FFFFFC;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y:auto;
+  } 
+  
+#helloContent {
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 5px;
+  }
+
+@media (max-width: 700px) {
+  #helloContent{
+    font-size: 100%;
+    flex: 0 0 80%;
+    }
+  }
+
+@media (min-width:701px) {
+  #helloContent{
+    font-size: 120%;
+    flex: 0 0 80%;
+    }
+  }
+
+@media (min-width: 1200px) {
+  #helloContent{
+    font-size: 125%;
+    flex: 0 0 50%;
+    }
+  }
+    
+#helloContent a { 
+  text-decoration: underline;
+  }
+  
+#helloContent a:hover {
+  text-decoration: none;
+  }
+
+#helloContent p {    
+  text-align: justify;
+  }
+
+#helloContent table, #helloContent td {
+  text-align: left;
+    vertical-align: top;
+    text-align: left;
+  }
+
+.table-date {
+  text-align: right;
+  }
+
+#helloImg{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  }
+
+ 
+#helloText{
+  overflow: hidden;
+}
+
+@media (max-width: 700px) {
+  #helloText{
+    clear:both;
+    }
+    #helloImg {
+      margin-right: 0px;
+    }
+  }
+    
+@media (min-width:701px) {
+  #helloText{
+    overflow:hidden;
+    }
+ }
+    
+@media (min-width: 1200px) {
+  #helloText{
+    overflow: hidden;
+    }
+  }
+
+#helloText p {margin-top:-5px;}
+
+#helloImg img{
+  max-width: 250px; 
+  display: block;
+  }
+
+#prints {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  } 
+
+#shopPrints{
   text-align: center;
+  font-size: 175%;
+  font-weight: 300;
+  flex: 0 0 90%;
   }
 
 #Lightbox {
@@ -236,7 +629,8 @@ a {
 
 .modal {
   position: fixed;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   top: 0;
   left: 0;
   z-index: 5;
@@ -259,10 +653,11 @@ a {
   }
 
 .image-slide {
-  max-width: 90vw;
-  max-height: 90vh;
+  max-width: 95vw;
+  max-height: 90vh; 
   display: block;
-  margin: auto auto 5% auto;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 .modal-preview {
@@ -292,16 +687,10 @@ img.hover-shadow {
   position: fixed;
   top: 1;
   right: 0;
-  z-index: 10;
+  z-index: 1000;
   display: block;
   padding: 10px;
-  font-family: 'Jost', sans-serif;
-  }
-
-.close {
-  color: #000;
-  }
-.closeAbt {
+  font-family: 'futura-pt', 'Jost', sans-serif;
   color: #000;
   }
 
@@ -314,7 +703,3 @@ img.hover-shadow {
   cursor: pointer;
   }
 
-  video {
-    display: block;
-    margin: 0 auto;
-    }
