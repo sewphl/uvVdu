@@ -1,7 +1,7 @@
 const headerTemplate = document.createElement('template');
 
       headerTemplate.innerHTML = `
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+      <script src="https://kit.fontawesome.com/5b643014eb.js" crossorigin="anonymous"></script>
 
       <style>
         ul {
