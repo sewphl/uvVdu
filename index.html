@@ -13,7 +13,16 @@
   </head>
 
   <body> 
-
+    <script>
+      document.body.classList.add('fade');
+    </script>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          window.setTimeout(function() {
+            document.body.className = '';
+          }, 230);
+        });
+      </script>
     <header-component></header-component>
 
     <div class="container">
