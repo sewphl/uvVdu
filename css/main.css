@@ -79,12 +79,13 @@ a:hover {
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-    " . gi1 gi1 gi1 gi1 gi1 gi1 gi1 gi1 ."
+    " . . gi1 gi1 gi1 gi1 gi1 gi1 . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-    " . . gi2 gi2 gi2 gi2 gi2 gi2 . ."
+    /*" . gi2 gi2 gi2 gi2 gi2 gi2 gi2 gi2 ."*/
+    " . gi8 gi8 gi8 gi8 gi8 gi8 gi8 gi8 ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
@@ -94,7 +95,7 @@ a:hover {
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-    " . gi4 gi4 gi4 gi4 gi4 gi4 gi4 gi4 ."
+    " . . gi4 gi4 gi4 gi4 gi4 gi4 . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
@@ -114,7 +115,7 @@ a:hover {
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-    " . . gi8 gi8 gi8 gi8 gi8 gi8 . ."
+    " . . gi22 gi22 gi22 gi22 gi22 gi22 . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
@@ -124,34 +125,32 @@ a:hover {
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-    " . gi10 gi10 gi10 gi10 gi10 gi10 gi10 gi10 ."
+    " . . gi10 gi10 gi10 gi10 gi10 gi10 . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-
-
-    " . gi11 gi11 gi11 gi11 gi11 gi11 gi11 gi11 ."
+    " . . gi11 gi11 gi11 gi11 gi11 gi11 . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-    " . . gi12 gi12 gi12 gi12 gi12 gi12 . ."
+    " . gi12 gi12 gi12 gi12 gi12 gi12 gi12 gi12 ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-    " . . gi13 gi13 gi13 gi13 gi13 gi13 . ."
+    " . gi13 gi13 gi13 gi13 gi13 gi13 gi13 gi13 ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-    " . gi14 gi14 gi14 gi14 gi14 gi14 gi14 gi14 ."
+    " . . gi14 gi14 gi14 gi14 gi14 gi14 . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-    " . gi15 gi15 gi15 gi15 gi15 gi15 gi15 gi15 ."
+    " . . gi15 gi15 gi15 gi15 gi15 gi15 . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
@@ -176,184 +175,95 @@ a:hover {
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-    " . gi20 gi20 gi20 gi20 gi20 gi20 gi20 gi20 ."
+    " . . gi20 gi20 gi20 gi20 gi20 gi20 . ."
+    /*
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-
     " . . gi21 gi21 gi21 gi21 gi21 gi21 . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . gi22 gi22 gi22 gi22 gi22 gi22 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . gi23 gi23 gi23 gi23 gi23 gi23 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . gi24 gi24 gi24 gi24 gi24 gi24 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . gi25 gi25 gi25 gi25 gi25 gi25 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . gi26 gi26 gi26 gi26 gi26 gi26 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . gi27 gi27 gi27 gi27 gi27 gi27 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . gi28 gi28 gi28 gi28 gi28 gi28 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . gi29 gi29 gi29 gi29 gi29 gi29 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . gi30 gi30 gi30 gi30 gi30 gi30 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . gi31 gi31 gi31 gi31 gi31 gi31 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . gi32 gi32 gi32 gi32 gi32 gi32 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . gi33 gi33 gi33 gi33 gi33 gi33 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . gi34 gi34 gi34 gi34 gi34 gi34 . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-    " . . . . . . . . . ."
-
+    */
+ 
     " . . . . foot foot . . . ."
     ;
     grid-gap: 4vw;
     }
-  }
+  }  
 
+  @media (min-width: 701px) {
+    .grid {
+      grid-template-areas:
+        ". . . . . . . . . . "
+/*        " . gi1 gi1 gi1 . gi2 gi2 gi2 gi2 . "*/
+        " . gi1 gi1 gi1 . gi8 gi8 gi8 gi8 . "
+        ". . . . . . . . . . "
+        " . gi3 gi3 gi3 . . gi4 gi4 gi4 . "
+        ". . . . . . . . . . "
+        " . gi5 gi5 gi5 gi5 . gi6 gi6 gi6 ."
+        ". . . . . . . . . . "
+        " . gi7 gi7 gi7 gi7 . gi22 gi22 gi22 . "
+        ". . . . . . . . . . "
+        " . gi9 gi9 gi9 . . gi10 gi10 gi10 ."
+        ". . . . . . . . . . "
+        " . gi11 gi11 gi11 . gi12 gi12 gi12 gi12 ."
+        ". . . . . . . . . . "
+        " . gi13 gi13 gi13 gi13 . gi14 gi14 gi14 ."
+        ". . . . . . . . . . "
+        " . gi15 gi15 gi15 . . gi16 gi16 gi16 ."
+        ". . . . . . . . . . "
+        " . gi17 gi17 gi17 gi17 . gi18 gi18 gi18 . "
+        ". . . . . . . . . . "
+        " . gi19 gi19 gi19 . . gi20 gi20 gi20 . "
+        ". . . . . . . . . . "
+        /*
+        " . gi21 gi21 gi21 . . gi22 gi22 gi22 . "
+        ". . . . . . . . . . "
+        */
+  
+        ". . . . foot foot . . . . "
+      ;
+      grid-gap: 6vw;
+      }
+    }  
 
-
-@media (min-width: 701px) {
-  .grid {
-    grid-template-areas:
-      ". . . . . . . . . . "
-      " . gi1 gi1 gi1 gi1 . gi2 gi2 gi2 . "
-      ". . . . . . . . . . "
-      " . gi3 gi3 gi3 . gi4 gi4 gi4 gi4 . "
-      ". . . . . . . . . . "
-      " . gi5 gi5 gi5 gi5 . gi6 gi6 gi6 ."
-      ". . . . . . . . . . "
-      " . gi7 gi7 gi7 gi7 . gi8 gi8 gi8 . "
-      ". . . . . . . . . . "
-      " . gi9 gi9 gi9 . gi10 gi10 gi10 gi10 . "
-      ". . . . . . . . . . "
-
-      " . gi11 gi11 gi11 gi11 . gi12 gi12 gi12 . "
-      ". . . . . . . . . . "
-      " . gi13 gi13 gi13 . gi14 gi14 gi14 gi14 . "
-      ". . . . . . . . . . "
-      " . gi15 gi15 gi15 gi15 . gi16 gi16 gi16 ."
-      ". . . . . . . . . . "
-      " . gi17 gi17 gi17 gi17 . gi18 gi18 gi18 . "
-      ". . . . . . . . . . "
-      " . gi19 gi19 gi19 . gi20 gi20 gi20 gi20 . "
-      ". . . . . . . . . . "
-
-      " . gi21 gi21 gi21 . . gi22 gi22 gi22 . "
-      ". . . . . . . . . . "
-      " . gi23 gi23 gi23 . . gi24 gi24 gi24 . "
-      ". . . . . . . . . . "
-      " . gi25 gi25 gi25 . . gi26 gi26 gi26 . "
-      ". . . . . . . . . . "
-      " . gi27 gi27 gi27 . . gi28 gi28 gi28 . "
-      ". . . . . . . . . . "
-      " . gi29 gi29 gi29 . . gi30 gi30 gi30 . "
-      ". . . . . . . . . . "
-      " . gi31 gi31 gi31 . . gi32 gi32 gi32 . "
-      ". . . . . . . . . . "
-      " . gi33 gi33 gi33 . . gi34 gi34 gi34 . "
-
-      ". . . . foot foot . . . . "
-    ;
-    grid-gap: 6vw;
-    }
-  }
-
-
-@media (min-width: 1200px) {
-  .container {
-    width: 85%;
-    margin: 3rem auto;
-  }
-  .grid {
-    grid-template-areas:
-      ". . . . . . . . . . . . . ."
-      " . gi1 gi1 gi1 gi1 . gi2 gi2 gi2 . gi3 gi3 gi3 . "
-      ". . . . . . . . . . . . . ."
-      " . . gi4 gi4 gi4 gi4 . . gi5 gi5 gi5 gi5 . . "
-      ". . . . . . . . . . . . . ."
-      " . gi6 gi6 gi6 . gi7 gi7 gi7 gi7 . gi8 gi8 gi8 ."
-      ". . . . . . . . . . . . . ."
-      ". . . gi9 gi9 gi9 . . gi10 gi10 gi10 gi10 . ."
-      ". . . . . . . . . . . . . ."
-
-      " . gi11 gi11 gi11 gi11 . gi12 gi12 gi12 . gi13 gi13 gi13 . "
-      ". . . . . . . . . . . . . ."
-      " . . gi14 gi14 gi14 gi14 . . gi15 gi15 gi15 gi15 . . "
-      ". . . . . . . . . . . . . ."
-      " . gi16 gi16 gi16 . gi17 gi17 gi17 gi17 . gi18 gi18 gi18 ."
-      ". . . . . . . . . . . . . ."
-      ". . . gi19 gi19 gi19 . . gi20 gi20 gi20 gi20 . ."
-      ". . . . . . . . . . . . . ."
-
-      ". . . gi21 gi21 gi21 . . gi22 gi22 gi22 . . ."
-      ". . . . . . . . . . . . . ."
-      ". . gi23 gi23 gi23 . . gi24 gi24 gi24 . . . ."
-      ". . . . . . . . . . . . . ."
-      ". . . . gi25 gi25 gi25 . . gi26 gi26 gi26 . ."
-      ". . . . . . . . . . . . . ."
-      ". . . gi27 gi27 gi27 . . gi28 gi28 gi28 . . ."
-      ". . . . . . . . . . . . . ."
-      ". . gi29 gi29 gi29 . . gi30 gi30 gi30 . . . ."
-      ". . . . . . . . . . . . . ."
-      ". . . . gi31 gi31 gi31 . . gi32 gi32 gi32 . ."
-      ". . . . . . . . . . . . . ."
-      ". . . gi33 gi33 gi33 . . gi34 gi34 gi34 . . ."
-      ". . . . . . . . . . . . . ."
+    @media (min-width: 1200px) {
+      .container {
+        width: 85%;
+        margin: 3rem auto;
+      }
+      .grid {
+        grid-template-areas:
+          ". . . . . . . . . . . . . ."
+          /*" . gi1 gi1 gi1 . gi2 gi2 gi2 gi2 . gi3 gi3 gi3 . "*/
+          " . gi1 gi1 gi1 . gi8 gi8 gi8 gi8 . gi3 gi3 gi3 ."
+          ". . . . . . . . . . . . . ."
+          " . gi4 gi4 gi4 . gi5 gi5 gi5 gi5 . gi6 gi6 gi6 . "
+          ". . . . . . . . . . . . . ."
+          " . . . gi7 gi7 gi7 gi7 . gi22 gi22 gi22 . . ."
+          ". . . . . . . . . . . . . ."
+          " . gi9 gi9 gi9 . gi10 gi10 gi10 . gi11 gi11 gi11 . ."
+          ". . . . . . . . . . . . . ."
+          " . . gi12 gi12 gi12 gi12 . . gi13 gi13 gi13 gi13 . ."
+          ". . . . . . . . . . . . . ."
+          " . . . gi14 gi14 gi14 . . gi15 gi15 gi15 . . . "
+          ". . . . . . . . . . . . . ."
+          " . gi16 gi16 gi16 . gi17 gi17 gi17 gi17 . gi18 gi18 gi18 ."
+          ". . . . . . . . . . . . . ."
+          ". . . . gi19 gi19 gi19 . . gi20 gi20 gi20 . ."
+          ". . . . . . . . . . . . . ."
     
-      ". . . . . . foot foot . . . . . ." 
-    ;
-    grid-gap: 6vw;
-    }
-  }
+          /*". . gi21 gi21 gi21 . . gi22 gi22 gi22 . . . ."
+          ". . . . . . . . . . . . . ."*/
+          ". . . . . . foot foot . . . . . ." 
+        ;
+        grid-gap: 6vw;
+        }
+      }
 
 .photo {
     object-fit: cover;
@@ -552,11 +462,11 @@ a:hover {
     }
   }
     
-#helloContent a { 
+a { 
   text-decoration: underline;
   }
   
-#helloContent a:hover {
+a:hover {
   text-decoration: none;
   }
 
@@ -574,19 +484,20 @@ a:hover {
   text-align: right;
   }
 
-#helloImg{
+#helloImg, .devImg {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
+  font-size: smaller;
   }
 
- 
+
 #helloText{
   overflow: hidden;
 }
 
 @media (max-width: 700px) {
-  #helloText{
+  #helloText, .devParagraph {
     clear:both;
     }
     #helloImg {
@@ -595,38 +506,51 @@ a:hover {
   }
     
 @media (min-width:701px) {
-  #helloText{
+  #helloText, .devParagraph{
     overflow:hidden;
     }
  }
     
 @media (min-width: 1200px) {
-  #helloText{
+  #helloText, .devParagraph{
     overflow: hidden;
     }
   }
 
 #helloText p {margin-top:-5px;}
 
-#helloImg img{
+#helloImg img, .devImg img {
   max-width: 250px; 
   display: block;
   }
 
-#prints {
+#guides {
   width: 100vw;
-  height: 95vh;
+  /*height: 95vh;*/
   display: flex;
   justify-content: center;
   align-items: center;
   } 
 
-#shopPrints{
-  text-align: center;
-  font-size: 175%;
-  font-weight: 300;
-  flex: 0 0 90%;
+#devGuides{
+  text-align: left;
+  font-size: 100%;  /*175%*/
+  /*font-weight: 300; */
+  /*flex: 0 0 90%;*/
   }
+
+@media (max-width: 700px) {
+  #devGuides{width: 75%;}   
+  }
+    
+@media (min-width:701px) {
+  #devGuides{width: 60%;} 
+ }
+    
+@media (min-width: 1200px) {
+  #devGuides{width: 50%;} 
+}
+
 
 #Lightbox {
   transition: all 1s linear;

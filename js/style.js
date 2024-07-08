@@ -26,7 +26,7 @@ function openMe(id) {
   if (myModal.style.display==="" || myModal.style.display==="none" ) {
     let myPhotos = document.querySelectorAll(".photo");  
     let myHello = document.querySelector("#helloContent");
-    let myPrints = document.querySelector("#shopPrints");
+    //let myPrints = document.querySelector("#shopPrints");
     let myHeader = document.querySelector("body > header-component");
     let myFooter = document.querySelector("body > footer-component");
 
@@ -34,7 +34,7 @@ function openMe(id) {
       myPhotos[i].style.opacity = "0";
     }
     myHello.style.opacity = "0";
-    myPrints.style.opacity = "0";
+    //myPrints.style.opacity = "0";
     myHeader.style.opacity = "0";
     myFooter.style.opacity = "0";
 
@@ -43,7 +43,7 @@ function openMe(id) {
         myPhotos[i].style.display = "none";
       }
       myHello.style.display = "none";
-      myPrints.style.display = "none";
+      //myPrints.style.display = "none";
       myHeader.style.display = "none";
       myFooter.style.display = "none";
     }, 1200);
@@ -82,7 +82,7 @@ function closeMe(id) {
   document.querySelector("body").style.overflow = "visible"; //return to scroll
   let myPhotos = document.querySelectorAll(".photo");  
   let myHello = document.querySelector("#helloContent");
-  let myPrints = document.querySelector("#shopPrints");
+  //let myPrints = document.querySelector("#shopPrints");
   let myHeader = document.querySelector("body > header-component");
   let myFooter = document.querySelector("body > footer-component");
 
@@ -91,7 +91,7 @@ function closeMe(id) {
       myPhotos[i].style.opacity = "1";
     }
     myHello.style.opacity = "1";
-    myPrints.style.opacity = "1";
+   // myPrints.style.opacity = "1";
     myHeader.style.opacity = "1";
     myFooter.style.opacity = "1";
   }, 1600);
@@ -101,7 +101,7 @@ function closeMe(id) {
       myPhotos[i].style.display = "block";
     }
     myHello.style.display = "block";
-    myPrints.style.display = "block";
+    //myPrints.style.display = "block";
     myHeader.style.display = "block";
     myFooter.style.display = "block";
   }, 1200);

@@ -48,10 +48,11 @@ footerTemplate.innerHTML = `
   </style>
   <footer id="footer">
     <ul class="social-row">
-      <li class="copyright">© 2022, uvVdu</li>
+      <li class="copyright">© 2024, ultravioletvoodoo. All rights reserved.</li>
+      <!--<li><a href="mailto:ultravioletvoodoo.photo@gmail.com"><i class="fa-regular fa fa-envelope"></i></a></li>-->
       <li><a href="https://www.instagram.com/ultravioletvoodoo/"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="https://linktree.com/ultravioletvoodoo"><i class="fa-solid fa fa-tree"></i></a></li>
-      <li><a href="https://www.ko-fi.com/ultravioletvoodoo/"><i class="myCoffee fa fa-coffee"></i></a></li>
+      <!--<li><a href="https://linktree.com/ultravioletvoodoo"><i class="fa-solid fa fa-tree"></i></a></li>-->
+      <!--<li><a href="https://www.ko-fi.com/ultravioletvoodoo/"><i class="myCoffee fa fa-coffee"></i></a></li>-->
     </ul>
   </footer>
 `;
