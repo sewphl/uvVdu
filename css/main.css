@@ -79,12 +79,26 @@ a:hover {
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
+    " . . gi23 gi23 gi23 gi23 gi23 gi23 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi24 gi24 gi24 gi24 gi24 gi24 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . gi25 gi25 gi25 gi25 gi25 gi25 . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
+    " . . . . . . . . . ."
     " . . gi1 gi1 gi1 gi1 gi1 gi1 . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
-    /*" . gi2 gi2 gi2 gi2 gi2 gi2 gi2 gi2 ."*/
     " . gi8 gi8 gi8 gi8 gi8 gi8 gi8 gi8 ."
     " . . . . . . . . . ."
     " . . . . . . . . . ."
@@ -198,27 +212,30 @@ a:hover {
   @media (min-width: 701px) {
     .grid {
       grid-template-areas:
+      ". . . . . . . . . . "
+              " . gi23 gi23 gi23 gi23 gi24 gi24 gi24 gi24 . "
+              ". . . . . . . . . . "
+              " . gi25 gi25 gi25 gi25 . gi1 gi1 gi1 . "
         ". . . . . . . . . . "
-/*        " . gi1 gi1 gi1 . gi2 gi2 gi2 gi2 . "*/
-        " . gi1 gi1 gi1 . gi8 gi8 gi8 gi8 . "
+        " . gi8 gi8 gi8 gi8 . gi3 gi3 gi3 . "
         ". . . . . . . . . . "
-        " . gi3 gi3 gi3 . . gi4 gi4 gi4 . "
+        " . gi4 gi4 gi4 . gi5 gi5 gi5 gi5 ."
         ". . . . . . . . . . "
-        " . gi5 gi5 gi5 gi5 . gi6 gi6 gi6 ."
+        " . gi6 gi6 gi6 . gi7 gi7 gi7 gi7 . "
         ". . . . . . . . . . "
-        " . gi7 gi7 gi7 gi7 . gi22 gi22 gi22 . "
+        " . gi22 gi22 gi22 . . gi9 gi9 gi9 ."
         ". . . . . . . . . . "
-        " . gi9 gi9 gi9 . . gi10 gi10 gi10 ."
+        " . gi10 gi10 gi10 . . gi11 gi11 gi11 ."
         ". . . . . . . . . . "
-        " . gi11 gi11 gi11 . gi12 gi12 gi12 gi12 ."
+        " gi12 gi12 gi12 gi12 . . gi13 gi13 gi13 gi13"
         ". . . . . . . . . . "
-        " . gi13 gi13 gi13 gi13 . gi14 gi14 gi14 ."
+        " . gi14 gi14 gi14 . . gi15 gi15 gi15 ."
         ". . . . . . . . . . "
-        " . gi15 gi15 gi15 . . gi16 gi16 gi16 ."
+        " . gi16 gi16 gi16 . gi17 gi17 gi17 gi17 ."
         ". . . . . . . . . . "
-        " . gi17 gi17 gi17 gi17 . gi18 gi18 gi18 . "
+        " . gi18 gi18 gi18 . . gi19 gi19 gi19 . "
         ". . . . . . . . . . "
-        " . gi19 gi19 gi19 . . gi20 gi20 gi20 . "
+        " . . . . gi20 gi20 gi20 . . ."
         ". . . . . . . . . . "
         /*
         " . gi21 gi21 gi21 . . gi22 gi22 gi22 . "
@@ -239,7 +256,8 @@ a:hover {
       .grid {
         grid-template-areas:
           ". . . . . . . . . . . . . ."
-          /*" . gi1 gi1 gi1 . gi2 gi2 gi2 gi2 . gi3 gi3 gi3 . "*/
+          " gi23 gi23 gi23 gi23 . gi24 gi24 gi24 gi24 . gi25 gi25 gi25 gi25 "
+          ". . . . . . . . . . . . . ."
           " . gi1 gi1 gi1 . gi8 gi8 gi8 gi8 . gi3 gi3 gi3 ."
           ". . . . . . . . . . . . . ."
           " . gi4 gi4 gi4 . gi5 gi5 gi5 gi5 . gi6 gi6 gi6 . "
@@ -270,6 +288,7 @@ a:hover {
     place-self: center;
     transition: all 1s linear;
     }
+
 
 .gi1 {
   grid-area: gi1;
